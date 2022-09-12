@@ -63,7 +63,9 @@ def main():
             net = models.shufflenet_v2_x2_0(pretrained=args.imagenet)
 
     if args.supervise == 'self' and not args.imagenet:
-        state_dict = torch.load(state_dict_path)['state_dict']
+        state_dict = torch.load(state_dict_path)
+        if 'state_dict' in state_dict.keys():
+            state_dict = state_dict['state_dict']
         state_dict = {k:state_dict[k] for k in list(state_dict.keys()) if not (k.startswith('l') or k.startswith('fc'))}
         state_dict = {k:state_dict[k] for k in list(state_dict.keys()) if not k.startswith('classifier')}
         
