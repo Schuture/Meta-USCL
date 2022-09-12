@@ -27,8 +27,8 @@ This is an improved version of [USCL](https://github.com/983632847/USCL). The ke
 ### 4. Quick Start
 
 #### 4.1 Fine-tuning directly with the pre-trained model
-a. Download the 5 fold cross validation [POCUS](https://drive.google.com/file/d/111lHpStoY_gYMhCQ-Yt95AreDx0G7-2R/view?usp=sharing) dataset
-b. Run the demo with
+1. Download the 5 fold cross validation [POCUS](https://drive.google.com/file/d/111lHpStoY_gYMhCQ-Yt95AreDx0G7-2R/view?usp=sharing) dataset
+2. Run the demo with
 ```
 # Using 64x64 pre-trained model to fine-tune on 64x64 image size
 python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/model64.pth --input_shape 64
@@ -46,8 +46,8 @@ ResNet-18 | 224x224 | 300 | Yes | Yes | 94.6%
 
 
 #### 4.2 Train Your Own Model
-a. Download the Butterfly ([Baidu pan](https://pan.baidu.com/s/1tQtDzoditkTft3LMeDfGqw) Pwd:butt, [Google drive](https://drive.google.com/file/d/1zefZInevopumI-VdX6r7Bj-6pj_WILrr/view?usp=sharing)) dataset 
-b. Train the USCL model with
+1. Download the Butterfly ([Baidu pan](https://pan.baidu.com/s/1tQtDzoditkTft3LMeDfGqw) Pwd:butt, [Google drive](https://drive.google.com/file/d/1zefZInevopumI-VdX6r7Bj-6pj_WILrr/view?usp=sharing)) dataset 
+2. Train the USCL model with
 ```
 name=MyPretraining
 python train.py --model=ResNet --depth=18 --feat_dim=128\
