@@ -37,12 +37,12 @@ python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/resnet18_64.pth
 python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/resnet18_224.pth --input_shape 224
 ```
 
-Name | Pre-trained size | Epochs | Project head | Classifier | Accuracy 
----  |:---------:|:---------:|:---------:|:---------:|:---------:
-ShuffleNet v2 | 64x64 | 300 | Yes | Yes | 87.3%
-ShuffleNet v2 | 224x224 | 300 | Yes | Yes | 90.3%
-ResNet-18 | 64x64 | 300 | Yes | Yes | 90.9%
-ResNet-18 | 224x224 | 300 | Yes | Yes | 94.6%
+Name | Pre-trained size | Epochs | Project head | Classifier | Accuracy | Download
+---  |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:
+ShuffleNet v2 | 64x64 | 300 | Yes | Yes | 87.3% |  
+ShuffleNet v2 | 224x224 | 300 | Yes | Yes | 90.3% |  
+ResNet-18 | 64x64 | 300 | Yes | Yes | 90.9% |  [link](https://drive.google.com/file/d/1yKimuJUwkp3qRirsnIhJtbBv47wPouf7/view?usp=sharing)
+ResNet-18 | 224x224 | 300 | Yes | Yes | 94.6% |  [link](https://drive.google.com/file/d/1yKimuJUwkp3qRirsnIhJtbBv47wPouf7/view?usp=sharing)
 
 
 #### 4.2 Train Your Own Model
@@ -62,7 +62,7 @@ python train.py --model=ResNet --depth=18 --feat_dim=128\
 #### 5. Environment
 The code is developed with an Intel(R) Xeon(R) Silver 4210R CPU @ 2.40GHz and a single Nvidia Tesla V100 GPU.
 
-The install script has been tested on an Ubuntu 18.04 system.
+The install script *requirements.txt* has been tested on an Ubuntu 18.04 system.
 
 :cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud:
 
