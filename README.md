@@ -49,13 +49,7 @@ ResNet-18 | 224x224 | 300 | Yes | Yes | 94.6% |  [link](https://drive.google.com
 1. Download the Butterfly ([Baidu pan](https://pan.baidu.com/s/1tQtDzoditkTft3LMeDfGqw) Pwd:butt, [Google drive](https://drive.google.com/file/d/1zefZInevopumI-VdX6r7Bj-6pj_WILrr/view?usp=sharing)) dataset 
 2. Train the USCL model with
 ```
-name=MyPretraining
-python train.py --model=ResNet --depth=18 --feat_dim=128\
-	--workers=4 --name=$name --seed=0 --fp16_precision\
-	--optim=Adam --batch_size=32 --lr=0.001\
-	--meta_batch_size=32 --input_shape=64\
- 	--samples=3 --cropping_size=0.85\
-  	--color_jitter=0.6 --meta --epochs=300\
+python train.py
 ```
 
 
