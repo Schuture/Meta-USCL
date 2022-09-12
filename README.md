@@ -9,17 +9,17 @@ This is an improved version of [USCL](https://github.com/983632847/USCL). The ke
 
 ### Framework of Meta-USCL
 
-![Framework](https://github.com/Schuture/Meta-USCL/blob/main/metaUSCL.png =1000x)
+![Framework](https://github.com/Schuture/Meta-USCL/blob/main/metaUSCL.png)
 
 ### The Learned Weighting Scheme
 
 For different subsets (domains) of our pre-training dataset US-4, CMW-Net gives different weight distributions.
 
-![Weight distribution across different domains](https://github.com/Schuture/Meta-USCL/blob/main/histogram_weight.png =500x)
+![Weight distribution across different domains](https://github.com/Schuture/Meta-USCL/blob/main/histogram_weight.png =600x450)
 
 The illustration of weights and similarities between an initial frame and other frames. Red boxes highlight the changing semantic marks (e.g., hepatic vein, portal vein and inferior vena cava) from the initial frame, green boxes denote the textural dissimilarities (gas in the lungs and a small portal vein section) in the following frames.
 
-![The relationship between similarity and weight](https://github.com/Schuture/Meta-USCL/blob/main/Sim_vs_weight.png =1000x)
+![The relationship between similarity and weight](https://github.com/Schuture/Meta-USCL/blob/main/Sim_vs_weight.png)
 
 ### Quick Start
 
