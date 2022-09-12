@@ -15,7 +15,7 @@ This is an improved version of [USCL](https://github.com/983632847/USCL). The ke
 
 For different subsets (domains) of our pre-training dataset US-4, CMW-Net gives different weight distributions.
 
-![Weight distribution across different domains](https://github.com/Schuture/Meta-USCL/blob/main/histogram_weight.png =600x450)
+<img src="https://github.com/Schuture/Meta-USCL/blob/main/histogram_weight.png" width = "600" height = "450" alt="Weight distribution across different domains" align=center />
 
 The illustration of weights and similarities between an initial frame and other frames. Red boxes highlight the changing semantic marks (e.g., hepatic vein, portal vein and inferior vena cava) from the initial frame, green boxes denote the textural dissimilarities (gas in the lungs and a small portal vein section) in the following frames.
 
