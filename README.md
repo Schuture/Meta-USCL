@@ -31,10 +31,10 @@ This is an improved version of [USCL](https://github.com/983632847/USCL). The ke
 2. Run the demo with
 ```
 # Using 64x64 pre-trained model to fine-tune on 64x64 image size
-python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/model64.pth --input_shape 64
+python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/resnet18_64.pth --input_shape 64
 
 # Using 224x224 pre-trained model to fine-tune on 224x224 image size
-python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/model224.pth --input_shape 224
+python eval_pretrained_model_on_POCUS/train.py --path model_ckpt/resnet18_224.pth --input_shape 224
 ```
 
 Name | Pre-trained size | Epochs | Project head | Classifier | Accuracy 
