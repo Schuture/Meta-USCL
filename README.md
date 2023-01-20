@@ -5,7 +5,7 @@ This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning 
 
 SimCLR + **P**ositive **P**air **I**nterpolator (PPI, to generate positive pairs from an ultrasound video clip) + **C**ontrastive **M**eta **W**eight Net (CMW-Net, a meta-learning-driven positive pair weighting network).
 
-This is an improved version of [USCL](https://github.com/983632847/USCL). The key difference is the new CMW-Net, which is a generic method for weighting the random generated positive pairs (they tend to have highly diverse benefit for learning semantic consistency).
+[Meta-USCL](https://ieeexplore.ieee.org/abstract/document/9980429) is an improved version of [USCL](https://github.com/983632847/USCL). The key difference is the new CMW-Net, which is a generic method for weighting the random generated positive pairs (they tend to have highly diverse benefit for learning semantic consistency).
 
 
 ### 2. Framework of Meta-USCL
@@ -68,7 +68,15 @@ Licensed under an MIT license.
 
 ### 7. Citation
 
-This work is under review of IEEE Transaction on Medical Imaging. If you find the code and dataset useful in your research, please consider citing:
+This work is published at IEEE Transaction on Medical Imaging. If you find the code and dataset useful in your research, please consider citing:
+
+    @article{chen2022generating,
+      title={Generating and Weighting Semantically Consistent Sample Pairs for Ultrasound Contrastive Learning},
+      author={Chen, Yixiong and Zhang, Chunhui and Ding, Chris HQ and Liu, Li},
+      journal={IEEE Transactions on Medical Imaging},
+      year={2022},
+      publisher={IEEE}
+    }
 
     @inproceedings{Chen2021MICCAI,
         title={USCL: Pretraining Deep Ultrasound Image Diagnosis Model through Video Contrastive Representation Learning},
