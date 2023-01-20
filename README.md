@@ -70,29 +70,29 @@ Licensed under an MIT license.
 
 This work is published at IEEE Transaction on Medical Imaging. If you find the code and dataset useful in your research, please consider citing:
 
-    @article{chen2022generating,
-      title={Generating and Weighting Semantically Consistent Sample Pairs for Ultrasound Contrastive Learning},
-      author={Chen, Yixiong and Zhang, Chunhui and Ding, Chris HQ and Liu, Li},
-      journal={IEEE Transactions on Medical Imaging},
-      year={2022},
-      publisher={IEEE}
-    }
+@article{chen2022generating,
+    title={Generating and Weighting Semantically Consistent Sample Pairs for Ultrasound Contrastive Learning},
+    author={Chen, Yixiong and Zhang, Chunhui and Ding, Chris HQ and Liu, Li},
+    journal={IEEE Transactions on Medical Imaging},
+    year={2022},
+    publisher={IEEE}
+}
 
-    @inproceedings{Chen2021MICCAI,
-        title={USCL: Pretraining Deep Ultrasound Image Diagnosis Model through Video Contrastive Representation Learning},
-        author = {Yixiong Chen, and Chunhui Zhang, and Li Liu, and Cheng Feng, and Changfeng Dong, and Yongfang Luo, and Xiang Wan},
-        journal = {MICCAI},
-        year = {2021}
-      }
+@inproceedings{Chen2021MICCAI,
+    title={USCL: Pretraining Deep Ultrasound Image Diagnosis Model through Video Contrastive Representation Learning},
+    author = {Yixiong Chen, and Chunhui Zhang, and Li Liu, and Cheng Feng, and Changfeng Dong, and Yongfang Luo, and Xiang Wan},
+    journal = {MICCAI},
+    year = {2021}
+  }
 
 
-     @article{born2021accelerating,
-        title={Accelerating detection of lung pathologies with explainable ultrasound image analysis},
-        author={Born, Jannis and Wiedemann, Nina and Cossio, Manuel and Buhre, Charlotte and Br{\"a}ndle, Gabriel and Leidermann, Konstantin and Aujayeb, Avinash and Moor, Michael and Rieck, Bastian and Borgwardt, Karsten},
-        journal={Applied Sciences},
-        pages={672},
-        year={2021},
-        }
+@article{born2021accelerating,
+    title={Accelerating detection of lung pathologies with explainable ultrasound image analysis},
+    author={Born, Jannis and Wiedemann, Nina and Cossio, Manuel and Buhre, Charlotte and Br{\"a}ndle, Gabriel and Leidermann, Konstantin and Aujayeb, Avinash and Moor, Michael and Rieck, Bastian and Borgwardt, Karsten},
+    journal={Applied Sciences},
+    pages={672},
+    year={2021},
+}
 
 
 ### 8. Contact
