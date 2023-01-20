@@ -5,7 +5,7 @@ This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning 
 
 SimCLR + **P**ositive **P**air **I**nterpolator (PPI, to generate positive pairs from an ultrasound video clip) + **C**ontrastive **M**eta **W**eight Net (CMW-Net, a meta-learning-driven positive pair weighting network).
 
-Meta-USCL ([TMI paper](https://ieeexplore.ieee.org/abstract/document/9980429)) is an improved version of USCL([MICCAI paper](https://github.com/983632847/USCL)). The key difference is the new CMW-Net, which is a generic method for weighting the random generated positive pairs (they tend to have highly diverse benefit for learning semantic consistency).
+Meta-USCL ([TMI paper](https://ieeexplore.ieee.org/abstract/document/9980429)) is an improved version of USCL ([MICCAI paper](https://github.com/983632847/USCL)). The key difference is the new CMW-Net, which is a generic method for weighting the random generated positive pairs (they tend to have highly diverse benefit for learning semantic consistency).
 
 
 ### 2. Framework of Meta-USCL
