@@ -1,5 +1,5 @@
 # Meta-USCL
-This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning (USCL), implemented with PyTorch. 
+This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning (Meta-USCL), implemented with PyTorch. 
 
 ### 1. Brief Introduction to this Method
 
@@ -52,8 +52,17 @@ ResNet-18 | 224x224 | 300 | Yes | Yes | 94.6% |  [link](https://drive.google.com
 python train.py
 ```
 
+### 5. Apply Pre-trained Models with Mask-RCNN for Tumor Segmentation
+1. Download pre-trained [ResNet-18](https://drive.google.com/file/d/1yKimuJUwkp3qRirsnIhJtbBv47wPouf7/view?usp=sharing) (same as above).
+2. Unzip the UDIAT-B breast tumor segmentation dataset at *eval_mask_rcnn_on_UDIATB/UDIAT_Dataset_B*.
+3. Fine-tune pre-trained model with
+```
+python eval_mask_rcnn_on_UDIATB/run.py --dataset_dir eval_mask_rcnn_on_UDIATB/UDIAT_Dataset_B --path model_ckpt/resnet18_224.pth
+```
 
-#### 5. Environment
+
+
+#### 6. Environment
 The code is developed with an Intel(R) Xeon(R) Silver 4210R CPU @ 2.40GHz and a single Nvidia Tesla V100 GPU.
 
 The install script *requirements.txt* has been tested on an Ubuntu 18.04 system.
@@ -61,12 +70,12 @@ The install script *requirements.txt* has been tested on an Ubuntu 18.04 system.
 :cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud::cloud:
 
 
-### 6. License
+### 7. License
 
 Licensed under an MIT license.
 
 
-### 7. Citation
+### 8. Citation
 
 This work is published at IEEE Transaction on Medical Imaging. If you find the code and dataset useful in your research, please consider citing:
 
@@ -95,7 +104,7 @@ This work is published at IEEE Transaction on Medical Imaging. If you find the c
     }
 
 
-### 8. Contact
+### 9. Contact
 Feedbacks and comments are welcome! Feel free to contact us via [yixiongchen@link.cuhk.edu.cn](mailto:yixiongchen@link.cuhk.edu.cn) or [andyzhangchunhui@gmail.com](mailto:andyzhangchunhui@gmail.com) or [liuli@cuhk.edu.cn](mailto:liuli@cuhk.edu.cn).
 
 Enjoy!
