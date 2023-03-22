@@ -54,7 +54,7 @@ python train.py
 
 ### 5. Apply Pre-trained Models with Mask-RCNN for Tumor Segmentation
 1. Download pre-trained [ResNet-18](https://drive.google.com/file/d/1yKimuJUwkp3qRirsnIhJtbBv47wPouf7/view?usp=sharing) (same as above).
-2. Unzip the UDIAT-B breast tumor segmentation dataset at *eval_mask_rcnn_on_UDIATB/UDIAT_Dataset_B*.
+2. Unzip the UDIAT-B breast tumor segmentation dataset at *eval_mask_rcnn_on_UDIATB/UDIAT_Dataset_B.zip*.
 3. Fine-tune pre-trained model with
 ```
 python eval_mask_rcnn_on_UDIATB/run.py --dataset_dir eval_mask_rcnn_on_UDIATB/UDIAT_Dataset_B --path model_ckpt/resnet18_224.pth
