@@ -1,5 +1,5 @@
 # Meta-USCL
-This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning (Meta-USCL), implemented with PyTorch. 
+This is the repository for Meta **U**ltra**S**ound **C**ontrastive **L**earning (Meta-USCL, Yixiong Chen et al.), implemented with PyTorch. 
 
 ### 1. Brief Introduction to this Method
 
